@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impuestos Dolar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Impuestos Dolar</h1>
+        <h2>Calculá el precio de lo que quieres comprar con impuestos detallados</h2>
+    </header>
+    <main>
+        <h3>Ingresá el monto a calcular con impuestos</h3>
+        <input type="text" name="inputprecio" id="precio">
+        <button id="calcular">Calcular</button>
+        <div id="precios"></div>
+        <div><iframe style="width:320px;height:260px;margin-top: 15px ;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc" src="https://dolarhoy.com/i/cotizaciones/dolar-oficial" frameborder="0"></iframe></div>
+        
+        <h3>Ingresá el precio del dólar, con los centavos si es que tiene</h3>
+        <input type="text" name="inputdolares" id="preciodolar">
+        <h3>Ingresá el precio del producto en dólares</h3>
+        
+        <input type="text" name="inputdolar" id="preciosjuego">
+        <button id="calculardolares">Calcular</button>
+        <div id="preciosdolares"></div>
+    </main>
+    <footer>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
